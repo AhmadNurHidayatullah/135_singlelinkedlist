@@ -128,9 +128,9 @@ void searchData() {
         cout << "data tidak ditemukan" << endl;
     }
 }
-int main()
-{
-    std::cout << "Hello World!\n";
+
+int main(){
+   
 }
 
 
