@@ -82,6 +82,9 @@ bool deleteNode(int nim) {
         START = current->next;
     return true;
 }
+bool listempty() {
+
+}
 int main()
 {
     std::cout << "Hello World!\n";
