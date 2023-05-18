@@ -10,6 +10,16 @@ struct Node {
 Node* START = NULL;
 
 void addNode() {
+    int nim;
+    string nama;
+    Node* nodebaru = new Node();
+    cout << "masukkan NIM: ";
+    cin >> nim;
+    cout << "Masukkan Nama: ";
+    cin >> nama;
+    nodebaru->noMhs = nim;
+    nodebaru->name = nama;
+
 }
 int main()
 {
