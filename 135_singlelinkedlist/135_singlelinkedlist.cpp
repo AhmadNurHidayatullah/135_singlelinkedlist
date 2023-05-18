@@ -49,6 +49,10 @@ void addNode() {
     nodebaru->next = current;
     previous->next = nodebaru;
 }
+
+bool serachNode(int nim, Node* current, Node* previous) {
+
+}
 int main()
 {
     std::cout << "Hello World!\n";
